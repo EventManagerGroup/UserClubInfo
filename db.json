@@ -1,96 +1,143 @@
 {
-  "users":[
+  "users": [
     {
+      "id": "phanalvin1",
+      "password": "admin",
       "name": "Alvin Phan",
-      "username": "phanalvin1",
-      "password": "turtwigBestPokemon98",
-      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "club": [
         "cs187Main",
         "cs187Frontend"
       ]
     },
     {
+      "id": "orciuoliAnthony1",
+      "password": "admin",
       "name": "Anthony Orciuoli",
-      "username": "orciuoliAnthony1",
-      "password": "admin",
-      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "club": [
         "cs187Main",
         "cs187Frontend"
       ]
     },
     {
-      "name": "Shalin Avlani",
-      "username": "avlaniShalin1",
+      "id": "avlaniShalin1",
       "password": "admin",
-      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "name": "Shalin Avlani",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "club": [
         "cs187Main",
         "cs187Backend"
       ]
     },
     {
-      "name": "Kevin Lee",
-      "username": "leeKevin1",
+      "id": "leeKevin1",
       "password": "admin",
-      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "name": "Kevin Lee",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "club": [
         "cs187Main",
         "cs187Backend"
       ]
     }
   ],
-
   "clubs": [
     {
+      "id": "cs187Main",
       "name": "Computer Science 187",
-      "clubCode": "cs187Main",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "addCode": "AAAAAm",
-      "member": [{
-        "username": "phanalvin1",
-        "rank": "co-founder"
-      },
-      {
-        "username": "orciuoliAnthony1",
-        "rank": "co-founder"
-      },
-      {
-        "username": "avlaniShalin1",
-        "rank": "founder"
-      },
-      {
-        "username": "leeKevin1",
-        "rank": "co-founder"
-      }]
+      "member": [
+        {
+          "id": "phanalvin1",
+          "rank": "co-founder"
+        },
+        {
+          "id": "orciuoliAnthony1",
+          "rank": "co-founder"
+        },
+        {
+          "id": "avlaniShalin1",
+          "rank": "founder"
+        },
+        {
+          "id": "leeKevin1",
+          "rank": "co-founder"
+        }
+      ],
+      "event": [
+        {
+          "id": "Gonna Dance All Night",
+          "date": "2/3/22",
+          "location": "SCU",
+          "description": "We prob gonna go sleep at 12am",
+          "particpants": [
+            "phanalvin1",
+            "avlaniShalin",
+            "orciuoliAnthony1",
+            "leeKevin1"
+          ]
+        },
+        {
+          "id": "Gonna Dance All Night 2",
+          "date": "2/4/22",
+          "location": "SCU",
+          "description": "We prob gonna go sleep at 12:30am",
+          "particpants": [
+            "phanalvin1",
+            "avlaniShalin"
+          ]
+        }
+      ]
     },
-
     {
+      "id": "cs187Frontend",
       "name": "Frontend - CS 187",
-      "clubCode": "cs187Frontend",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "addCode": "AAAAAf",
-      "member": [{
-        "username": "phanalvin1",
-        "rank": "founder"
-      },
-      {
-        "username": "orciuoliAnthony1",
-        "rank": "founder"
-      }]
+      "member": [
+        {
+          "id": "phanalvin1",
+          "rank": "founder"
+        },
+        {
+          "id": "orciuoliAnthony1",
+          "rank": "founder"
+        }
+      ],
+      "event": [
+        {
+          "id": "Big Barbeque Bananzas",
+          "date": "1/13/22",
+          "location": "SCU",
+          "description": "We gonna havez the best BBQ known to at least three dead people.",
+          "particpants": [
+            "phanalvin1"
+          ]
+        }
+      ]
     },
-
     {
-      "name": "Backend - CS 187",
-      "clubCode": "cs187Backend",
-      "addCode": "AAAAAb",
-      "member": [{
-        "username": "avlaniShalin1",
-        "rank": "founder"
-      },
-      {
-        "username": "leeKevin1",
-        "rank": "founder"
-      }]
-    }
-  ]
-}
+      "id": "FNews",
+      "name": "Fake News Club",
+      "description": "Fake news, fake club",
+      "addCode": "oolala",
+      "member": [
+        {
+          "id": "phanalvin1",
+          "rank": "founder"
+        }
+      ],
+      "event": [
+        {
+          "id": "Protest against Our Government",
+          "date": "5/21/22",
+          "location": "SCU",
+          "description": "Why do they keep turning our frogs homo?",
+          "particpants": [
+            "phanalvin1"
+          ]
+        }
+      ]
+    }]
+  }
